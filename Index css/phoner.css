@@ -1,0 +1,203 @@
+.hbmenu {
+    display: flex;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+#topnavbar {
+    position: relative;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+}
+
+#appointment {
+    padding: 15px;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+.overlay-content #display {
+    display: flex;
+    justify-content: center;
+}
+
+.overlay-content #display #sign .verticle {
+    margin: 0px 10px;
+}
+
+.overlay-content #display #sign #logolog {
+    position: relative;
+    width: 64px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.overlay-content #display #sign .enter {
+    right: 0px;
+    width: 64px;
+    height: 58px;
+}
+
+#navbar .menu-body .logo-body .outter .logo img {
+    height: 8vh;
+}
+
+#form #appointment {
+    position: relative;
+    width: 100%;
+    margin: 0;
+}
+
+#form #appointment .customerinfo .outter-customerinfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#appointment .table .more-vechicle-info {
+    display: flex;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#appointment .table .more-vechicle-info span {
+    position: relative;
+    margin: 7px;
+    width: 98px;
+}
+
+#appointment .table .coll .contain {
+    position: relative;
+    width: 100%;
+}
+
+#appointment .table #more-details .fullvehicleinfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#appointment .table .coll .contain .panel-heading h4 a button {
+    position: relative;
+    width: 100%;
+}
+
+#appointment .table .coll .contain .panel-group #collapse2 .panel-bgnbcgfxbbody {
+    display: flex;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#appointment .table .coll .contain .panel-group #collapse2 .panel-bgnbcgfxbbody span {
+    position: relative;
+    margin: 7px;
+    width: 156px;
+}
+
+#our-services .services .about-services .logo1 {
+    margin: 0px;
+}
+
+#our-services .services .card-body .card-inner-bd {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+#our-services .services .card-body .card-inner-bd .card {
+    width: 45rem;
+    height: auto;
+}
+
+#our-services .services .card-body .card-inner-bd .card img {
+    width: 16vw;
+}
+
+#our-services .services .sr-head h1 {
+    font-size: 3.6rem;
+}
+
+#our-services .services .about-services .logo1 img {
+    position: relative;
+    width: 19%;
+}
+
+#our-services .services .about-services .logo1 span {
+    font-size: 3rem;
+}
+
+#Galleries .Gl-body .Gl-head .logo1 img {
+    position: relative;
+    width: 19%;
+}
+
+#Galleries .Gl-body .Gl-head .logo1 span {
+    font-size: 3rem;
+}
+
+#Galleries .Gl-body .top-heading h1 {
+    font-size: 3.6rem;
+}
+
+.parent-wrapper {
+    height: 50vh;
+}
+
+#navbar .middle-content {
+    display: none;
+}

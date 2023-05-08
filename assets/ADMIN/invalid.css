@@ -1,0 +1,42 @@
+body {
+    background-image: url("background-image.jpg");
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 400px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-top: 0;
+}
+
+p {
+    color: #555;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+a {
+    background-color: #333;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #555;
+}

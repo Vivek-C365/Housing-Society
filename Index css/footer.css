@@ -1,0 +1,128 @@
+/* footer */
+
+.footer {
+    background-color: #191f23;
+}
+
+.copyfooter span {
+    color: #c3c3c3;
+    ;
+}
+
+.footer div {
+    color: #ffffff;
+}
+
+.heatext {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 17px;
+}
+
+#affilate {
+    font-size: 1.6rem;
+}
+
+.footer .footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer .footer-top .first-sec {
+    display: flex;
+    flex-direction: column;
+    width: 41vw;
+    justify-content: space-around;
+    padding: 35px;
+}
+
+.footer .footer-top .first-sec .footer-logo img {
+    position: relative;
+    width: 36vw;
+}
+
+.footer-top .first-sec .media-logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer .footer-top .second-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.footer .footer-top .second-sec .list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .footer-top .second-sec .list li {
+    display: flex;
+    margin-bottom: 4px;
+    transition: 0.3s;
+}
+
+.footer .footer-top .second-sec .list li:hover {
+    color: darkred;
+    cursor: pointer;
+}
+
+.footer .footer-top .contact-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-right: 43px;
+}
+
+.footer .footer-top .contact-sec .detail {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.footer .footer-top .contact-sec .detail .address {
+    margin-bottom: 17px;
+}
+
+.copyfooter {
+    color: #c3c3c3;
+    display: flex;
+    justify-content: center;
+    margin-top: 56px;
+    background-color: #14191c;
+    flex-direction: column;
+    align-items: center;
+}
+
+#privacy a {
+    color: white;
+}
+
+.footer-top .first-sec .media-logo img {
+    width: 3rem;
+    margin: 6px 21px;
+}
+
+.footer-top .first-sec .media-logo .facebook:hover,
+.tweet:hover,
+.instagram:hover,
+.youtube:hover,
+.linkedin:hover,
+.github:hover,
+.blog:hover,
+.gmail:hover {
+    position: relative;
+    bottom: 4px;
+}
+
+
+.sitemap_content ul a{
+    text-decoration: none;
+    color: white;
+
+}
